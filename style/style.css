@@ -11,3 +11,87 @@ ol,ul {
 a {
     text-decoration: none;
 }
+body{
+    background-color: darkgrey;
+}
+.number1 {
+   color: white;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 50px;
+}
+.number2{
+    color: white;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 25px;
+}
+.container1 {
+    margin-top: 50px;
+    background-color: white;
+}
+.block1 {
+    width: 200px;
+    height: 200px;
+    background-color: indianred;
+    float: left;
+}
+
+.block2 {
+    width: 200px;
+    height: 200px;
+    background-color: indianred;
+    float: right;
+}
+.clear{
+    width: 1000px;
+    height: 200px;
+    background-color: white;
+}
+.container2 {
+    margin-top: 50px;
+    background-color: white;
+}
+
+.block3 {
+    width: 200px;
+    height: 200px;
+    background-color: indianred;
+    float: left;
+}
+
+.block-middle {
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    float: right;
+    margin: 10px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.container3 {
+    margin-top: 50px;
+    background-color: white;
+}
+
+.block-left {
+    width: 200px;
+    height: 200px;
+    background-color: indianred;
+    float: left;
+    margin: 10px; 
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.block-right {
+    width: 200px;
+    height: 200px;
+    background-color: indianred;
+    float: left;
+    margin: 10px;
+    margin-top: 0;
+    float: right; 
+    margin-right: 0;
+}
