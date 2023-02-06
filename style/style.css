@@ -10,4 +10,138 @@ ol,ul {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.menu-item {
+    display: inline;
+    margin: 41px;
+}
+
+.menu-item:hover {
+   text-decoration: underline;
+}    
+
+.menu {
+    margin-top: 45px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 170px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+
+color: #000000;
+}
+
+.about {
+    margin-top: 60px;
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.btn {
+    margin-left: 300px;
+    margin-top: 65px;
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    user-select: none;
+}
+
+h2 {
+    margin-top: 253px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.information {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 540px;
+    text-align: center;
+    margin-left: 275px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.projects {
+    background-color: dodgerblue;
+    display: block;
+    height: 250px;
+    margin-bottom: 100px;
+}
+
+.container-images {
+    display: inline;
+    margin-left: 300px;
+    margin-top: 125px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.info {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 540px;
+    margin-left: 275px;
+}
+
+.big-picture {
+    margin-left: 300px;
+    margin-top: 57px;
+}
+
+.footer-info {
+    margin-top: 150px;
+    background-color: dodgerblue;
+    height: 151px;
+}
+
+h4 {
+    position: absolute;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.end-info {
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 300px;
+    margin-top: 90px;
 }
