@@ -11,3 +11,27 @@ ol,ul {
 a {
     text-decoration: none;
 }
+
+.start-page {
+    background-image: url(/images/Mask\ Group.jpg);
+    height: 500px;
+    width: 1280px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 55px;
+    padding-top: 125px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    padding-top: 10px;
+    margin-left: 55px;
+}
