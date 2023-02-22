@@ -154,6 +154,73 @@ h2 {
     border-radius: 40px;
 }
 
+.bonus {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bonus-ad {
+    width: 540px;
+    height: 212px;
+    background-image: url(../images/PinkBackground.jpg);
+}
+
+.get-bonus {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    float: left;
+}
+
+.money {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white; 
+    float: left;
+}
+
+.envelope {
+    float: right;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.inviting {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.shops {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white; 
+    float: left;
+}
+
+.truck {
+    float: right;
+    padding-right: 40px;
+}
+
 body {
     background-color: gainsboro;
 }
