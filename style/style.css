@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+body {
+    background-color: gainsboro;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -57,6 +61,7 @@ header {
 
 hr {
     margin-top: 30px;
+    border: 1px solid #F13C6E;
 }
 
 .header-menu {
@@ -165,6 +170,8 @@ h2 {
     width: 540px;
     height: 212px;
     background-image: url(../images/PinkBackground.jpg);
+    float: left;
+    position: relative;
 }
 
 .get-bonus {
@@ -191,12 +198,13 @@ h2 {
 
 .envelope {
     float: right;
-    padding-right: 40px;
-    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 45px;
+    position: absolute;
 }
 
 .inviting {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 50px;
     font-style: normal;
     font-weight: 700;
@@ -208,19 +216,118 @@ h2 {
 .shops {
     padding-top: 20px;
     padding-left: 50px;
+    padding-bottom: 20px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: white; 
-    float: left;
 }
 
 .truck {
-    float: right;
-    padding-right: 40px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: absolute;
 }
 
-body {
-    background-color: gainsboro;
+.btn2 {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    color: white;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+.brands {
+    width: 1110px;
+    height: 358px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    background-image: url(../images/brands.jpg);
+}
+
+.recent {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.end-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140.62%;
+    padding-bottom: 20px;
+}
+
+.equipment {
+    color:black;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.end-line {
+    margin-bottom: 20px;
+    border: 1px solid #F13C6E;
+}
+
+.popular {
+    width: 255px;
+    height: 253px;
+}
+
+.media {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.phone-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    float: left;
+    margin-top: 10px;
+}
+
+.btn3 {
+
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    background: gainsboro;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    float: right; 
+}
+
+.middle {
+    border: 1px solid #F13C6E;
+}
+
+.rights {
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
