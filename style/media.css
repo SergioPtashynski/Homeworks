@@ -1,0 +1,33 @@
+@media screen and (max-width:1000px) {
+    
+     .container {
+        width: 50%;
+     }
+
+     .main-menu {
+        width: 50%;
+     }
+
+}
+
+@media screen and (max-width:750px) {
+    
+    .container {
+       width: 75%;
+    }
+    .main-menu {
+        width: 50%;
+     }
+
+}
+
+@media screen and (max-width:550px) {
+    
+    .container {
+       width: 100%;
+    }
+    .main-menu {
+        width: 50%;
+     }
+
+}

@@ -10,4 +10,324 @@ ol,ul {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 15px;
+    height: 50px;
+    background-color:gainsboro;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-item {
+    display: inline;
+    margin: 30px;
+    position: relative;
+}
+
+.menu-item::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color:#F13C6E;
+    bottom: -3px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.menu-item:hover::before {
+   width: 100%;
+   color:#F13C6E;
+}
+
+.logo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    border: 1px solid #F13C6E;
+}
+
+.header-menu {
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 20px;
+}
+
+.ad {
+    padding-top: 20px;
+    height: 604px;
+    background-image: url(../images/sale.jpg)
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+.about {
+    padding-top: 50px;
+    padding-left: 100px;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.btn {
+    margin-left: 100px;
+    margin-top: 65px;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+span {
+    color: white;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.flex-special {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.chairs {
+    width: 255px;
+    height: 363px;
+    background-color: white;
+    border: 1px solid #FFFFFF;
+
+}
+
+.about-chairs {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.price-chairs {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.seat {
+    padding-left: 60px;
+}
+
+.btn1 {
+    margin-left: 65px;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 40px;
+    color: white;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+.bonus {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bonus-ad {
+    width: 540px;
+    height: 212px;
+    background-image: url(../images/PinkBackground.jpg);
+    float: left;
+    position: relative;
+}
+
+.get-bonus {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    float: left;
+}
+
+.money {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white; 
+    float: left;
+}
+
+.envelope {
+    float: right;
+    margin-left: 50px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.inviting {
+    padding-top: 30px;
+    padding-left: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.shops {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white; 
+}
+
+.truck {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: absolute;
+}
+
+.btn2 {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    color: white;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+.brands {
+    width: 1110px;
+    height: 358px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    background-image: url(../images/brands.jpg);
+}
+
+.recent {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.end-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140.62%;
+    padding-bottom: 20px;
+}
+
+.equipment {
+    color:black;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.end-line {
+    margin-bottom: 20px;
+    border: 1px solid #F13C6E;
+}
+
+.popular {
+    width: 255px;
+    height: 253px;
+}
+
+.media {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.phone-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    float: left;
+    margin-top: 10px;
+}
+
+.btn3 {
+
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 40px;
+    background: gainsboro;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    float: right; 
+}
+
+.middle {
+    border: 1px solid #F13C6E;
+}
+
+.rights {
+    height: 64px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
