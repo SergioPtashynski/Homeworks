@@ -1,0 +1,63 @@
+@import './variables.scss';
+@import './_mixins.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color:black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+h1 {
+    @include font(black,43px,600,'Josefin Sans',center);
+  }
+
+.text {
+    @include font(grey,18px,400,'Open Sans', center);
+    padding-top: 20px;
+}
+
+.about-coffe {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.coffe-description {
+
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px gray;
+}
+
+h2 {
+    @include font(black,32px,600,'Josefin Sans',left);
+    margin-top: 30px;
+}
+
+.about {
+    @include font(grey,16px,400,'Open Sans',left);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link {
+    @include font(#FF4B32,16px,400,'Open Sans',left);
+    padding-bottom: 20px;
+}
+
+.about-coffe_beans {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
