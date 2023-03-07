@@ -13,7 +13,6 @@ a {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  padding: 0px 15px;
 }
 
 h1 {
@@ -35,14 +34,16 @@ h1 {
 
 .about-coffe {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .coffe-description {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 3px 3px 10px gray;
+  margin-bottom: 30px;
 }
 
 h2 {
