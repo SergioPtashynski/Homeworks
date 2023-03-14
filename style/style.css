@@ -119,6 +119,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .chairs {
@@ -126,6 +127,7 @@ h2 {
     height: 363px;
     background-color: white;
     border: 1px solid #FFFFFF;
+    margin-top: 20px;
 
 }
 
@@ -164,6 +166,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .bonus-ad {
@@ -172,6 +175,7 @@ h2 {
     background-image: url(../images/PinkBackground.jpg);
     float: left;
     position: relative;
+    margin-top: 10px;
 }
 
 .get-bonus {
