@@ -4,4 +4,132 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
+
+a {
+    color: white;
+}
+
+.first-block {
+    background:
+    url("../images/Symbol.png") no-repeat center bottom,
+    url("../images/pattern.svg") no-repeat center bottom,
+    url("../images/blur.png") repeat-x center bottom,
+    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+
+.second-block {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.start-page {
+    position: relative;
+    
+}
+
+.start-page::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+    background: url('../images/big-line.png') no-repeat center center;
+    background-size: 98%;
+    display: block;
+    margin: auto;
+}
+
+.start-page::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    height: 10px;
+    background: url('../images/small-line.png') no-repeat center center;
+    background-size: 95%;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+margin-top: 50px;
+margin-left: 40px;
+}
+
+.menu-item {
+    display: inline;
+    margin: 10px;
+}
+
+.header {
+    float: left;
+}
+
+.first {
+    float: right;
+    padding-right: 50px;
+    text-align: center;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.second {
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 976px;
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+}
+
+.arrow {
+    padding-top: 738px;
+    text-align: center;
+}
+
+.second-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-start {
+    margin-top: 115px;
+}
+
+.our-power{
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 50px;
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+    margin-right: 40px;
+}
+
+h2 {
+    font-family: 'TT Norms';
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 40px;
+    margin-top: 51px;
+    color: white;
+}
+
+.about-lawyer {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'TT Norms';
+    font-size: 15px;
+    line-height: 30px;
+    color: white;
+}
