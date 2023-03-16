@@ -93,13 +93,14 @@ margin-left: 40px;
     text-align: center;
 }
 
-.second-block {
+.first-flex-start{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .flex-start {
+
     margin-top: 115px;
 }
 
@@ -132,4 +133,59 @@ h2 {
     font-size: 15px;
     line-height: 30px;
     color: white;
+}
+
+.services {
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.services-btn {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 17px;
+    color:aliceblue;
+}
+
+
+h1 {
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-family: 'TT Norms';
+font-size: 42px;
+line-height: 50px;
+}
+
+
+h5{
+    margin-top: 20px;
+    font-family: 'TT Norms';
+    font-size: 24px;
+    line-height: 28px;
+    color: #24A3FF;
+}
+
+.text {
+    margin-top: 15px;
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.second-flex-start{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: 60px;
+    padding-bottom: 80px;
+}
+
+.flex-description {
+    margin-top: 80px;
+    margin-right: 40px;
 }
