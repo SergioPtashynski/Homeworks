@@ -75,6 +75,7 @@ margin-left: 40px;
 .first {
     float: right;
     padding-right: 50px;
+    padding-top: 50px;
     text-align: center;
     font-family: 'TT Norms';
     font-style: normal;
@@ -93,6 +94,7 @@ margin-left: 40px;
     line-height: 21px;
     text-align: right;
 }
+
 
 .arrow {
     padding-top: 738px;
@@ -269,4 +271,191 @@ opacity: 0.2;
 
 .carousel-indicators .active {
     opacity: 1;
+}
+
+
+.first-grid {
+
+margin-top: 77px;
+display: grid;
+grid-template-columns: 320px 113px 340px 114px 433px;
+grid-template-rows: 57px repeat(2, 198px);
+gap: 5px;
+justify-content: center;
+}
+
+.successes {grid-area: 1/1/2/3;
+    background-color: #F5F5FA;}
+.tschool {grid-area: 2/1/3/3;
+    background-color: #F5F5FA;}
+.look {grid-area: 3/1/4/2;
+    background-color: #F5F5FA;}
+.adtelligent {grid-area: 3/2/4/4;
+    background-color: #F5F5FA;}
+.wannaBiz {grid-area: 1/3/3/5;
+    background-color: #F5F5FA;}
+.clikky {grid-area: 3/4/4/6;
+    background-color: #F5F5FA;}
+.tapgerine {grid-area: 1/5/3/6;
+    background-color: #F5F5FA;}
+
+.cases {
+font-family: 'TT Norms';
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #F0145A;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.tschool-text {
+    font-family: 'TT Norms';
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    color: #686887;
+    padding-top: 48px;
+    padding-left: 20px;
+}
+
+.Hillel {
+font-family: 'TT Norms';
+font-size: 18px;
+line-height: 26px;
+color: #B3B3BA;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.look-text {
+font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+color: #686887;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.look-logo {
+font-family: 'TT Norms';
+font-size: 18px;
+line-height: 26px;
+color: #B3B3BA;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.adtelligent-text {
+font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+color: #686887;
+padding-top: 76px;
+padding-left: 20px;
+}
+
+.adtelligent-logo {
+font-family: 'TT Norms';
+font-size: 18px;
+line-height: 26px;
+color: #B3B3BA;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.wannaBiz-text {
+font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+color: #686887;
+padding-top: 105px;
+padding-left: 20px;
+}
+
+.wannaBiz-logo {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    color: #B3B3BA;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.clikky-text {
+font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+color: #686887;
+padding-top: 76px;
+padding-left: 20px;
+}
+
+.clikky-logo {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    color: #B3B3BA;
+    padding-top: 20px;
+    padding-left: 20px;   
+}
+
+.tapgerine-text {
+font-family: 'TT Norms';
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+color: #686887;
+padding-top: 105px;
+padding-left: 20px;
+}
+
+.tapgerine-logo {
+    font-family: 'TT Norms';
+    font-size: 18px;
+    line-height: 26px;
+    color: #B3B3BA;
+    padding-top: 20px;
+    padding-left: 20px;   
+}
+
+
+.clients {
+    padding-top: 40px;
+}
+
+.our-clients {
+    text-align: center;
+}
+
+
+.old-clients {
+font-family: 'TT Norms';
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #323264;
+}
+
+.flex-clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.company-name {
+    width: 350px;
 }
