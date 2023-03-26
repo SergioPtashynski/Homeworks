@@ -676,3 +676,65 @@ padding-right: 40px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.team-page, .team-block {
+    background-color: white;
+}
+
+.team-color-first {
+    color: #B3B3BA;
+}
+
+.team-color {
+    color: #24A3FF;
+}
+
+.text-about-team {
+font-family: 'TT Norms';
+font-size: 42px;
+line-height: 49px;
+background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+padding-top: 80px;
+margin-left: 300px;
+}
+
+.our-team{
+    margin-top: 50px;
+}
+
+.team-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.persons {
+    border-radius: 12px;
+}
+
+.text-persons {
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #323264;
+margin-top: 10px;
+}
+
+.person-position {
+font-family: 'TT Norms';
+font-size: 16px;
+line-height: 22px;
+color: #B3B3BA;
+
+}
+
+footer {
+    margin-top: 40px;
+    background-color: gainsboro;
+}
