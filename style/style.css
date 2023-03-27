@@ -738,3 +738,94 @@ footer {
     margin-top: 40px;
     background-color: gainsboro;
 }
+
+
+.photo-person {
+   margin-top: 150px;
+}
+
+.partner {
+    font-family: 'TT Norms';
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+
+.photo-partner {
+    padding-bottom: 50px;
+}
+
+.info-flex {
+    flex-wrap: wrap;
+}
+
+.man-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.his-name {
+font-family: 'TT Norms';
+font-size: 42px;
+line-height: 49px;
+background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.li-partner {
+    display: inline;
+}
+
+.l-partner {
+    font-family: 'TT Norms';
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+
+.partner-mail, .partner-linkedin {
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #24A3FF;
+}
+
+.separator-person {
+    border: 3px solid grey;
+}
+
+.education {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    margin-top: 40px;
+}
+
+.about-oo {
+    font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+}
+
+.education-text {
+font-family: 'TT Norms';
+font-size: 18px;
+line-height: 26px;
+color: #000000;
+}
+
+.text-partner {
+    margin-top: 180px;
+    margin-left: 40px;
+}
