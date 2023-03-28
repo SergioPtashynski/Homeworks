@@ -736,13 +736,11 @@ color: #B3B3BA;
 
 footer {
     margin-top: 40px;
-    background-color: gainsboro;
+    background: #F5F5FA;
 }
 
 
-.photo-person {
-   margin-top: 150px;
-}
+
 
 .partner {
     font-family: 'TT Norms';
@@ -756,12 +754,13 @@ footer {
 }
 
 .info-flex {
-    flex-wrap: wrap;
+    margin-top: 150px;
 }
 
 .man-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .his-name {
@@ -826,6 +825,74 @@ color: #000000;
 }
 
 .text-partner {
-    margin-top: 180px;
-    margin-left: 40px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.about-us {
+
+    margin-top: 100px;
+    
+}
+
+
+.main-aboutus {
+
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 49px;
+    font-weight: 700;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.text-aboutus {
+
+    font-family: 'TT Norms';
+    font-size: 21px;
+    line-height: 30px;
+    color: #000000;   
+}
+
+
+.flex-aboutus {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+
+.all-our-team {
+
+max-width: none;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.goals-slider {
+    font-family: 'TT Norms';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.second-slider {
+    margin-top: 93px;
+    background: #F5F5FA;
+}
+
+.second-carousel {
+    margin-left: 50px;
 }
