@@ -95,6 +95,17 @@ margin-left: 40px;
     text-align: right;
 }
 
+.slogan {
+    position: absolute;
+    font-family: 'TT Norms';
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 500px;
+    margin-top: 320px;
+}
+
 
 .arrow {
     padding-top: 738px;
@@ -895,4 +906,106 @@ margin-bottom: 100px;
 
 .second-carousel {
     margin-left: 50px;
+}
+
+.services-page {
+    background: url(../images/servicesbakground.png);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.services-page {
+    position: relative;
+    
+}
+
+.services-page::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+    background: url('../images/big-line.png') no-repeat center center;
+    background-size: 98%;
+    display: block;
+    margin: auto;
+}
+
+.services-page::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    height: 10px;
+    background: url('../images/small-line.png') no-repeat center center;
+    background-size: 95%;
+    display: block;
+    margin: auto;
+}
+
+.services-logo {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.services-main {
+    font-family: 'TT Norms';
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; 
+}
+
+.services-text {
+    color: #FFFFFF;
+}
+
+.services-btn {
+    position: relative;
+    display: inline-block;
+    font-family: 'TT Norms';
+    padding: 15px 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 12px;
+    background: #2196f3;
+}
+.services-btn:hover {
+    color: #FFFFFF;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.2s;
+}
+.services-btn src-btn {
+    position: absolute;
+    display: block;
+}
+
+.services-separator {
+    border: 2px solid #FFFFFF;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.our-services {
+    font-family: 'TT Norms';
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF; 
+    margin-left: 200px;
+}
+
+.services-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 210px;    
 }
