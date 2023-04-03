@@ -296,6 +296,7 @@ opacity: 0.2;
 
 margin-top: 77px;
 display: grid;
+grid: auto-fit;
 grid-template-columns: 320px 113px 340px 114px 433px;
 grid-template-rows: 57px repeat(2, 198px);
 gap: 5px;
@@ -1053,4 +1054,42 @@ margin-bottom: 100px;
 .last-time {
     margin-top: 80px;
     margin-left: 50px;
+}
+
+.contacts-main {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.our-street {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #323264; 
+}
+
+.phone-number-contacts {
+    font-family: 'TT Norms';
+    font-size: 21px;
+    line-height: 30px;
+    color: #46466E;
+}
+
+.mail-our-contacts {
+    font-family: 'TT Norms';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 30px;
+color: #24A3FF;
+}
+
+.last-contacts-page {
+    border: 3px solid #E6E6F0;
+}
+
+.map {
+    padding-top: 100px;
 }

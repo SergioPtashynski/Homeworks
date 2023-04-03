@@ -2,16 +2,31 @@
     .container {
         width: 100%;
     }
+
+    .first-grid, .second-grid {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:992px){
     .container {
         width: 75%;
     }
+
+    .first-grid, .second-grid {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:767px){
     .container {
         width: 50%;
+    }
+
+    .first-grid, .second-grid {
+        display: flex;
+        flex-direction: column;
     }
 }
